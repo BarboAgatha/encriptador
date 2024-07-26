@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Vollkorn:ital,wght@0,400..900;1,400..900&family=Zain:wght@200;300;400;700;800;900&display=swap');
+
+:root{
+    --cor-principal: #E9ECF8;
+    --cor-secundaria: #FFFFFF;
+    --cor-terciaria: #0A3871;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Vollkorn', sans-serif;
+}
+
+body{
+    background-color: var(--cor-principal);
+}
+
+.logo{
+    padding: 2% 0% 0% 0%;
+}
+
+.container {
+    display: flex;
+    padding: 2% 0% 0% 4%;
+    justify-content: space-between;
+}
+
+.texto {
+    background-color:var(--cor-principal);
+    width: 400px;
+    height: 944px;
+    font-size: 15px;
+    background: transparent;
+    box-shadow: none;
+    border:none;
+    outline: 0;
+    padding: 10px;
+    flex-direction: column;
+    font-size: 20px;
+    color: #0A3871;
+    text-transform: uppercase;
+  }
+
+  #container-descrip{
+    display: flex;
+    border: 4px solid var(--cor-secundaria);
+    width: 400px;
+    height: 944px;
+    margin-right: 3%;
+    flex-direction: column;
+    border-radius: 20px;
+    background-color:var(--cor-secundaria);
+  }
+
+  #output-texto{
+    display: flex;
+    border: 4px solid var(--cor-secundaria);
+    width: 400px;
+    height: 944px;
+    margin-right: 3%;
+    flex-direction: column;
+    border-radius: 20px;
+    background-color:var(--cor-secundaria);
+    font-size: 20px;
+    color: #0A3871;
+    text-transform: uppercase;
+  }
+
+  #container-descrip h1{
+    text-align: center;
+    font-size: 24px;
+    color: #343A40;
+  }
+
+  #container-descrip span{
+    text-align: center;
+    font-size: 16px;
+    color: #495057;
+  }
+
+
+  #container-descrip img{
+    width: 336px;
+    height: 304px;
+    margin-top: 50%;
+  }
+
+  .botao-container button{
+    border: 2px solid var(--cor-terciaria);
+    background-color: var(--cor-terciaria);
+    border-radius: 20px;
+    text-decoration: none;
+    color:  var(--cor-secundaria);
+    width: 250px;
+    height: 50px;
+    margin-left: 4%;
+    cursor: pointer;
+    color:var(--cor-secundaria);
+  }
+
+  .botao-container button:hover{
+    color: #278ac4;
+  }
+
+  .bnt-copiar{
+    border: 2px solid var(--cor-terciaria);
+    background-color: var(--cor-terciaria);
+    border-radius: 10px;
+    text-decoration: none;
+    color:  var(--cor-secundaria);
+    width: 150px;
+    height: 50px;
+    margin-bottom: 10%;
+    margin-left: 30%;
+    cursor: pointer;
+  }
+  
+  .bnt-copiar:hover{
+    color: #278ac4;
+  }
+
+  .rodape{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2%;
+    margin-top: 15px;
+    background-color: var(--cor-principal);
+    color: black;
+  }
+
+  .icons ion-icon{
+    width: 25px;
+    height: 25px;
+    color: var(--cor-terciaria);
+  }
+
+  .icons ion-icon:hover{
+    color: #278ac4;
+  }
